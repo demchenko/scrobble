@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="styles.css" rel="stylesheet">
+    <title>Scrobble App</title>
+</head>
+<body>
+    <main id="app">
+        <section class="played"></section>
+    </main>
+
+    <!-- Template element -->
+
+    <article class="played__item template" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+        <figure class="played__cover_holder" itemprop="image">
+            <img alt="" class="played__cover" src="">
+        </figure>
+        <h2 class="played__title" itemprop="name"></h2>
+        <h3 class="played__artists" itemprop="byArtist"></h3>
+        <time><span class="played__time"></span></time>
+    </article>
+    <div class="alert"></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="scrobble-api.js">
+    </script>
+    <script src="script.js">
+    </script>
+</body>
+</html>
