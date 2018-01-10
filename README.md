@@ -1,6 +1,6 @@
 # Scrobble App
 
-A simple app that utilises cookies and saves/reads user's fave tracks to it.
+A simple app that utilises cookies and saves/reads user's fave tracks to/from it.
 
 ### Main objectives
 
@@ -10,3 +10,4 @@ A simple app that utilises cookies and saves/reads user's fave tracks to it.
 * Use clean markup
 
 
+[App Preview](http://supstudio.com/scrobble/)
